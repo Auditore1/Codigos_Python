@@ -3,5 +3,12 @@ class Cliente:
         self.nome = nome
         self.telefone = telefone
         self.cpf = cpf
-        self.endereco = ender
+        self.endereco = endereco
+
+class Conta:
+    def __init__(self,numero,cliente,saldo,limite = 1000):
+        self.numero = numero
+        self.cliente = cliente
+        self.saldo = saldo
+        self.limite = limite
         
